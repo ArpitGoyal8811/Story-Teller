@@ -12,4 +12,8 @@ place = [' the mountains', ' the garden']
 second_character = [' he saw a man', ' he saw a young lady']
 age = [' who seemed to be in late 20s', ' who seemed very old and feeble']
 work = [' searching something.', ' digging a well on roadside.']
-  
+
+print(random.choice(Sentence_starter)+random.choice(character)+
+      random.choice(time)+random.choice(story_plot) +
+      random.choice(place)+random.choice(second_character)+
+      random.choice(age)+random.choice(work))
